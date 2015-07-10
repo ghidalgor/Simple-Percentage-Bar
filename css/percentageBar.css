@@ -1,0 +1,94 @@
+/*
+CSS of Percentaje Bar 
+Date: 2015-05-08
+By: Engineer Gregory Hidalgo Ramírez
+Websites:
+- www.gregoryhidalgo.com
+- www.valoresweb.com
+
+Twitter: @websoundcr
+GitHub: @ghidalgor
+Please only refer me :-)
+*/
+
+
+/* 'This lines are the most important of CSS' */
+/* ++++++++++++++++++++++++++++++++++++++++++ */
+.clear{
+	clear:both;
+}
+.coloBar{
+	width: 100%;
+	margin:1em 0;
+	background-color: #000;
+}
+.barRule1, .barRule2{
+	float: left;
+	margin: 0;
+	padding: 0.2em 0 0.2em;
+	text-align: right;
+	font-size: 100%;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #A52A2A;
+}
+.barRule2{
+	background-color: #00BFFF;
+	color: #000;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* Optional */
+/* Layout */
+body{
+	background-color: #00BFFF;
+}
+h1, h2{
+	text-align: center;
+}
+header, #main, footer{
+	width: 100%;
+	margin: .2em 0;
+	padding: .8em 0;
+}
+header p{
+	text-align: center;
+}
+.categories{
+	width: 50%;
+	margin: .6em auto;
+	padding: .1em .3em;
+	background-color: #FFF;
+}
+footer{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: transparent;
+}
+
+
+/* Aditional Rules*/
+/* +++++++++++++++++++++++++++++++++++ */
+
+/* Round Corner */
+.border-all-round {
+	/* Firefox */
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	 
+	/* Google Chrome y Safari */
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	 
+	/* CSS3 (Opera 10.5 e Internet Explorer 9) */
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}

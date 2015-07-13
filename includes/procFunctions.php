@@ -7,8 +7,7 @@ Websites:
 - www.gregoryhidalgo.com
 - www.valoresweb.com
 
-Twitter: @websoundcr
-GitHub:  @ghidalgor
+GitHub:  @ghidalgor | Twitter: @websoundcr
 Please refer me :-);
 */
 
